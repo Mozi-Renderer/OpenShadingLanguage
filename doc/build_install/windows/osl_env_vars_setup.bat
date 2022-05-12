@@ -13,10 +13,10 @@
 @REM double quotation
 
 
-set BASE_LOCATION=D:/madoodia/sdks
-set PYTHON_LOCATION=C:/Python37
+set BASE_LOCATION=D:/Library/OSL
+set PYTHON_LOCATION=C:/Users/46790/AppData/Local/Programs/Python/Python37
 set QT_LOCATION=C:/Qt/5.15.0/msvc2019_64
-set NASM_LOCATION=C:/NASM
+set NASM_LOCATION=D:/Library/NASM
 set GIT_LOCATION="C:/Program Files/Git"
 set CMAKE_LOCATION="C:/Program Files/CMake"
 set VCVARS_LOCATION="C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/Build"

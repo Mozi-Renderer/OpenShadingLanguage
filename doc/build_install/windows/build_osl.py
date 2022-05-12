@@ -1331,8 +1331,7 @@ OPENVDB = Dependency("OpenVDB", InstallOpenVDB, "include/openvdb/openvdb.h")
 ############################################################
 # OpenImageIO
 
-# OIIO_URL = "https://github.com/OpenImageIO/oiio/archive/Release-2.2.7.0.zip"
-OIIO_URL = "https://github.com/OpenImageIO/oiio/archive/Release-2.1.20.0.zip"
+OIIO_URL = "https://github.com/OpenImageIO/oiio/archive/Release-2.2.7.0.zip"
 
 
 def InstallOpenImageIO(context, force, buildArgs):
@@ -1381,9 +1380,9 @@ OPENIMAGEIO = Dependency(
 # Use v1.1.0 on MacOS and Windows since v1.0.9 doesn't build properly on
 # those platforms.
 if Linux():
-    OCIO_URL = "https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/v1.0.9.zip"
+    OCIO_URL = "https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/v2.1.1.zip"
 else:
-    OCIO_URL = "https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/v1.1.0.zip"
+    OCIO_URL = "https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/v2.1.1.zip"
 
 
 def InstallOpenColorIO(context, force, buildArgs):
